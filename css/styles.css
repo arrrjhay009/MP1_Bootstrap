@@ -311,8 +311,50 @@ svg {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     gap: 1rem;
+  }
+
+  .contact__heading--h2 {
+    margin-bottom: .875rem;
+  }
+
+  .fa-solid {
+    margin-right: 1rem;
+    color: var(--bs-green);
+    font-size: 3rem;
+  }
+
+  .fa-brands {
+    margin-right: 1rem;
+    margin-top: 25px;
+    color: var(--bs-green);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+  .contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'title title'
+        'contact1 contact2';
+        padding-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact__title {
+    grid-area: title;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .contact__left {
+    grid-area: contact1;
+    color: var(--bs-gray-400);
+  }
+
+  .contact__right {
+    grid-area: contact2;
   }
 
   .contact__content {
@@ -330,7 +372,28 @@ svg {
   
   .contact__description {
     font-size: 1rem;
-    color: var(--bs-gray-600);
-    max-width: 60ch;
+    color: var(--bs-gray-400);
+    max-width: 50ch;
   }
+.form-control {
+    margin-bottom: 1rem;
+}
+.form-floating {
+    margin-top: 1rem;
+}
+
+/* FOOTER SECTION */
+.footer {
+    height: 10vh;
+}
+.footer__title {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    user-select: none;
+  }
+
   
