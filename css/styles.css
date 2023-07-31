@@ -126,7 +126,7 @@
 
 body {
     background-color: var(--bs-dark);
-    font-family: 'General Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 strong {
@@ -194,7 +194,7 @@ svg {
 }
 
 .hero__subtitle {
-    color: var(--bs-gray-600);
+    color: var(--bs-gray-100);
     font-size: 1rem;
     line-height: 0.9;
 }
@@ -210,7 +210,7 @@ svg {
 .hero__description {
     max-width: 60ch;
     font-size: 0.875rem;
-    color: var(--bs-gray-600);
+    color: var(--bs-gray-100);
 }
 
 /* ABOUT SECTION */
